@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/husll/Desktop/ValutLab/cssssvaluta.css">
+    <script src="/Users/husll/Desktop/ValutLab/valutes.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Convert UAH to Other Valuta</h2>
+    <form id="converter-form"> 
+        <label for="amount">Amount in UAH:</label>
+        <input type="number" id="amount" name="amount" required>
+        
+        <label for="valutaSelect">Select valuty:</label>
+        <select id="valutaSelect" name="valutaSelect" required>
+        </select>
+    
+        <button type="submit">Convert</button>
+        <div id="conversion-result"></div>
+    </form><br><br>
+
+    
+    <h1>Valuta Exchange Rates</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Valuta Name</th>
+                <th>Valuta Code</th>
+                <th>Exchange Rate</th>
+                <th>Exchange Date</th>
+            </tr>
+        </thead>
+        <tbody id="valuta-table">
+        </tbody>
+    </table>
+    
+     
+</body>
+</html>
